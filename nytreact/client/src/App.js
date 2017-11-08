@@ -1,15 +1,12 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Articles from "./pages/Books";
+import Nav from "./components/Nav";
 
-const App  = () => (
- <div>
-        <Nav />
-        <Results />
-
-        <Search />
-        <Saved />
-      </div>
-)
+const App = () => (
+  <div>
+    <Nav />
+    <Articles />
+  </div>
+);
 
 export default App;
